@@ -1,0 +1,21 @@
+<template name="p103">
+  <div>
+    <div style="font-family:monospace; color:black; text-align:left; margin:20px;">
+      <div><b>phase:{{phase}}</b> <input type="button" value="Start" class="js-start-stop-button"></div>
+      <br>
+      <div>heat:{{fixed3 etime}}</div>
+      <br>
+      <div>x:{{fixed3 position.x}}</div>
+      <div>y:{{fixed3 position.y}}</div>
+      <div>z:{{fixed3 position.z}}</div>
+      <br>
+      <div>vx:{{fixed3 hd.x}}</div>
+      <div>vy:{{fixed3 hd.y}}</div>
+      <div>vz:{{fixed3 hd.z}}</div>
+    </div>
+
+    <div id="scene-container">
+    </div>
+
+  </div>
+</template>
