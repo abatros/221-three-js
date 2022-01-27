@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/runtime": "^7.3.4",
     "meteor-node-stubs": "^0.4.1",
-    "three": "^0.106.2",
+    "three": "^0.137.0",
     "three-dxf": "^0.3.1",
     "three-orbitcontrols": "^2.102.2"
   },
